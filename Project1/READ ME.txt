@@ -1,0 +1,13 @@
+This folder contains the Project Part 1 . There are three folders version1,version2 and version3 with different data sets given.
+
+Each has 2 files project and project1print. Project is the main file which has the simulation of the whole system. Follow the following steps:
+
+1. Clear the terminal.
+2. Load the project.clp file.
+3. reset
+4. run
+Here facts are generated and the once wof format (package_delivered ?pk-no ?delivery-time) are the facts that show which facts are delivered.
+5.Now load project1print.clp 
+6. run
+
+Note: Load the second file i.e Project1print.clp after the first file i.e project.clp is completely executed. So run the first file finish execution and then load and run the second file.

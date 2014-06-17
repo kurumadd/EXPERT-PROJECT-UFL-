@@ -1,0 +1,801 @@
+==> f-3652  (trucko 4 orlando none idle 0 10 10)
+FIRE 2273 inner_loop: f-3650,f-1215,f-917,,f-3651
+<== f-3651  (truck 2 west-palm none idle 0 5 5)
+==> f-3653  (truck 2 west-palm key-west transit 295 5 5)
+FIRE 2274 outer_loop_end1: f-3652,f-262,f-3650,f-1101,
+<== f-3652  (trucko 4 orlando none idle 0 10 10)
+==> f-3654  (trucko 4 orlando west-palm transit 293 10 10)
+FIRE 2275 clock_update: f-3650
+<== f-3650  (clock1 290)
+==> f-3655  (clock1 291)
+FIRE 2276 truck_reset: f-3655,f-3643
+<== f-3643  (truck 1 orlando ft-myers transit 291 15 15)
+==> f-3656  (truck 1 ft-myers none idle 0 15 15)
+FIRE 2277 loop_traverse: f-3655,f-3656,f-1256,f-1413,
+<== f-3656  (truck 1 ft-myers none idle 0 15 15)
+==> f-3657  (truck 1 ft-myers tampa transit 293 15 15)
+FIRE 2278 trucko_reset: f-3655,f-3646
+<== f-3646  (trucko 3 orlando west-palm transit 291 5 5)
+==> f-3658  (trucko 3 west-palm none idle 0 5 5)
+FIRE 2279 trucko_reset: f-3655,f-3645
+<== f-3645  (trucko 6 west-palm st-augustine transit 291 10 10)
+==> f-3659  (trucko 6 st-augustine none idle 0 10 10)
+FIRE 2280 outer_loop1: f-3659,f-262,f-3655,f-977,
+<== f-3659  (trucko 6 st-augustine none idle 0 10 10)
+==> f-3660  (trucko 6 st-augustine orlando transit 293 10 10)
+FIRE 2281 outer_loop1: f-3658,f-262,f-3655,f-870,
+<== f-3658  (trucko 3 west-palm none idle 0 5 5)
+==> f-3661  (trucko 3 west-palm st-augustine transit 294 5 5)
+FIRE 2282 clock_update: f-3655
+<== f-3655  (clock1 291)
+==> f-3662  (clock1 292)
+FIRE 2283 truck_reset: f-3662,f-3649
+<== f-3649  (truck 5 gainesville tallahassee transit 292 15 15)
+==> f-3663  (truck 5 tallahassee none idle 0 15 15)
+FIRE 2284 no_of_trucks: f-3663,
+FIRE 2285 loop_traverse: f-3662,f-3663,f-1259,f-1453,
+<== f-3663  (truck 5 tallahassee none idle 0 15 15)
+==> f-3664  (truck 5 tallahassee lake-city transit 294 15 15)
+FIRE 2286 no_of_trucks: f-3664,
+FIRE 2287 clock_update: f-3662
+<== f-3662  (clock1 292)
+==> f-3665  (clock1 293)
+FIRE 2288 truck_reset: f-3665,f-3657
+<== f-3657  (truck 1 ft-myers tampa transit 293 15 15)
+==> f-3666  (truck 1 tampa none idle 0 15 15)
+FIRE 2289 loop_traverse: f-3665,f-3666,f-1256,f-1447,
+<== f-3666  (truck 1 tampa none idle 0 15 15)
+==> f-3667  (truck 1 tampa ocala transit 295 15 15)
+FIRE 2290 trucko_reset: f-3665,f-3660
+<== f-3660  (trucko 6 st-augustine orlando transit 293 10 10)
+==> f-3668  (trucko 6 orlando none idle 0 10 10)
+FIRE 2291 trucko_reset: f-3665,f-3654
+<== f-3654  (trucko 4 orlando west-palm transit 293 10 10)
+==> f-3669  (trucko 4 west-palm none idle 0 10 10)
+FIRE 2292 outer_loop1: f-3669,f-262,f-3665,f-870,
+<== f-3669  (trucko 4 west-palm none idle 0 10 10)
+==> f-3670  (trucko 4 west-palm st-augustine transit 296 10 10)
+FIRE 2293 outer_loop_end1: f-3668,f-262,f-3665,f-1101,
+<== f-3668  (trucko 6 orlando none idle 0 10 10)
+==> f-3671  (trucko 6 orlando west-palm transit 296 10 10)
+FIRE 2294 clock_update: f-3665
+<== f-3665  (clock1 293)
+==> f-3672  (clock1 294)
+FIRE 2295 truck_reset: f-3672,f-3664
+<== f-3664  (truck 5 tallahassee lake-city transit 294 15 15)
+==> f-3673  (truck 5 lake-city none idle 0 15 15)
+FIRE 2296 no_of_trucks: f-3673,
+FIRE 2297 loop_traverse: f-3672,f-3673,f-1259,f-1434,
+<== f-3673  (truck 5 lake-city none idle 0 15 15)
+==> f-3674  (truck 5 lake-city jacksonville transit 295 15 15)
+FIRE 2298 no_of_trucks: f-3674,
+FIRE 2299 trucko_reset: f-3672,f-3661
+<== f-3661  (trucko 3 west-palm st-augustine transit 294 5 5)
+==> f-3675  (trucko 3 st-augustine none idle 0 5 5)
+FIRE 2300 outer_loop1: f-3675,f-262,f-3672,f-977,
+<== f-3675  (trucko 3 st-augustine none idle 0 5 5)
+==> f-3676  (trucko 3 st-augustine orlando transit 296 5 5)
+FIRE 2301 clock_update: f-3672
+<== f-3672  (clock1 294)
+==> f-3677  (clock1 295)
+FIRE 2302 truck_reset: f-3677,f-3674
+<== f-3674  (truck 5 lake-city jacksonville transit 295 15 15)
+==> f-3678  (truck 5 jacksonville none idle 0 15 15)
+FIRE 2303 no_of_trucks: f-3678,
+FIRE 2304 loop_end: f-3677,f-3678,f-1259,f-1004,
+<== f-3678  (truck 5 jacksonville none idle 0 15 15)
+==> f-3679  (truck 5 jacksonville st-augustine transit 296 15 15)
+FIRE 2305 no_of_trucks: f-3679,
+FIRE 2306 truck_reset: f-3677,f-3667
+<== f-3667  (truck 1 tampa ocala transit 295 15 15)
+==> f-3680  (truck 1 ocala none idle 0 15 15)
+FIRE 2307 loop_end: f-3677,f-3680,f-1256,f-1071,
+<== f-3680  (truck 1 ocala none idle 0 15 15)
+==> f-3681  (truck 1 ocala orlando transit 296 15 15)
+FIRE 2308 truck_reset: f-3677,f-3653
+<== f-3653  (truck 2 west-palm key-west transit 295 5 5)
+==> f-3682  (truck 2 key-west none idle 0 5 5)
+FIRE 2309 loop_traverse: f-3677,f-3682,f-1215,f-1403,
+<== f-3682  (truck 2 key-west none idle 0 5 5)
+==> f-3683  (truck 2 key-west miami transit 298 5 5)
+FIRE 2310 clock_update: f-3677
+<== f-3677  (clock1 295)
+==> f-3684  (clock1 296)
+FIRE 2311 truck_reset: f-3684,f-3681
+<== f-3681  (truck 1 ocala orlando transit 296 15 15)
+==> f-3685  (truck 1 orlando none idle 0 15 15)
+FIRE 2312 truck_reset: f-3684,f-3679
+<== f-3679  (truck 5 jacksonville st-augustine transit 296 15 15)
+==> f-3686  (truck 5 st-augustine none idle 0 15 15)
+FIRE 2313 no_of_trucks: f-3686,
+FIRE 2314 trucko_reset: f-3684,f-3676
+<== f-3676  (trucko 3 st-augustine orlando transit 296 5 5)
+==> f-3687  (trucko 3 orlando none idle 0 5 5)
+FIRE 2315 trucko_reset: f-3684,f-3671
+<== f-3671  (trucko 6 orlando west-palm transit 296 10 10)
+==> f-3688  (trucko 6 west-palm none idle 0 10 10)
+FIRE 2316 trucko_reset: f-3684,f-3670
+<== f-3670  (trucko 4 west-palm st-augustine transit 296 10 10)
+==> f-3689  (trucko 4 st-augustine none idle 0 10 10)
+FIRE 2317 inner_loop: f-3684,f-1259,f-946,,f-3686
+<== f-3686  (truck 5 st-augustine none idle 0 15 15)
+==> f-3690  (truck 5 st-augustine gainesville transit 297 15 15)
+FIRE 2318 no_of_trucks: f-3690,
+FIRE 2319 inner_loop: f-3684,f-1256,f-1134,,f-3685
+<== f-3685  (truck 1 orlando none idle 0 15 15)
+==> f-3691  (truck 1 orlando ft-myers transit 299 15 15)
+FIRE 2320 outer_loop1: f-3689,f-262,f-3684,f-977,
+<== f-3689  (trucko 4 st-augustine none idle 0 10 10)
+==> f-3692  (trucko 4 st-augustine orlando transit 298 10 10)
+FIRE 2321 outer_loop1: f-3688,f-262,f-3684,f-870,
+<== f-3688  (trucko 6 west-palm none idle 0 10 10)
+==> f-3693  (trucko 6 west-palm st-augustine transit 299 10 10)
+FIRE 2322 outer_loop_end1: f-3687,f-262,f-3684,f-1101,
+<== f-3687  (trucko 3 orlando none idle 0 5 5)
+==> f-3694  (trucko 3 orlando west-palm transit 299 5 5)
+FIRE 2323 clock_update: f-3684
+<== f-3684  (clock1 296)
+==> f-3695  (clock1 297)
+FIRE 2324 truck_reset: f-3695,f-3690
+<== f-3690  (truck 5 st-augustine gainesville transit 297 15 15)
+==> f-3696  (truck 5 gainesville none idle 0 15 15)
+FIRE 2325 no_of_trucks: f-3696,
+FIRE 2326 loop_traverse: f-3695,f-3696,f-1259,f-1402,
+<== f-3696  (truck 5 gainesville none idle 0 15 15)
+==> f-3697  (truck 5 gainesville tallahassee transit 300 15 15)
+FIRE 2327 no_of_trucks: f-3697,
+FIRE 2328 clock_update: f-3695
+<== f-3695  (clock1 297)
+==> f-3698  (clock1 298)
+FIRE 2329 truck_reset: f-3698,f-3683
+<== f-3683  (truck 2 key-west miami transit 298 5 5)
+==> f-3699  (truck 2 miami none idle 0 5 5)
+FIRE 2330 loop_end: f-3698,f-3699,f-1215,f-918,
+<== f-3699  (truck 2 miami none idle 0 5 5)
+==> f-3700  (truck 2 miami west-palm transit 300 5 5)
+FIRE 2331 trucko_reset: f-3698,f-3692
+<== f-3692  (trucko 4 st-augustine orlando transit 298 10 10)
+==> f-3701  (trucko 4 orlando none idle 0 10 10)
+FIRE 2332 outer_loop_end1: f-3701,f-262,f-3698,f-1101,
+<== f-3701  (trucko 4 orlando none idle 0 10 10)
+==> f-3702  (trucko 4 orlando west-palm transit 301 10 10)
+FIRE 2333 clock_update: f-3698
+<== f-3698  (clock1 298)
+==> f-3703  (clock1 299)
+FIRE 2334 truck_reset: f-3703,f-3691
+<== f-3691  (truck 1 orlando ft-myers transit 299 15 15)
+==> f-3704  (truck 1 ft-myers none idle 0 15 15)
+FIRE 2335 loop_traverse: f-3703,f-3704,f-1256,f-1413,
+<== f-3704  (truck 1 ft-myers none idle 0 15 15)
+==> f-3705  (truck 1 ft-myers tampa transit 301 15 15)
+FIRE 2336 trucko_reset: f-3703,f-3694
+<== f-3694  (trucko 3 orlando west-palm transit 299 5 5)
+==> f-3706  (trucko 3 west-palm none idle 0 5 5)
+FIRE 2337 trucko_reset: f-3703,f-3693
+<== f-3693  (trucko 6 west-palm st-augustine transit 299 10 10)
+==> f-3707  (trucko 6 st-augustine none idle 0 10 10)
+FIRE 2338 outer_loop1: f-3707,f-262,f-3703,f-977,
+<== f-3707  (trucko 6 st-augustine none idle 0 10 10)
+==> f-3708  (trucko 6 st-augustine orlando transit 301 10 10)
+FIRE 2339 outer_loop1: f-3706,f-262,f-3703,f-870,
+<== f-3706  (trucko 3 west-palm none idle 0 5 5)
+==> f-3709  (trucko 3 west-palm st-augustine transit 302 5 5)
+FIRE 2340 clock_update: f-3703
+<== f-3703  (clock1 299)
+==> f-3710  (clock1 300)
+FIRE 2341 truck_reset: f-3710,f-3700
+<== f-3700  (truck 2 miami west-palm transit 300 5 5)
+==> f-3711  (truck 2 west-palm none idle 0 5 5)
+FIRE 2342 truck_reset: f-3710,f-3697
+<== f-3697  (truck 5 gainesville tallahassee transit 300 15 15)
+==> f-3712  (truck 5 tallahassee none idle 0 15 15)
+FIRE 2343 no_of_trucks: f-3712,
+FIRE 2344 loop_traverse: f-3710,f-3712,f-1259,f-1453,
+<== f-3712  (truck 5 tallahassee none idle 0 15 15)
+==> f-3713  (truck 5 tallahassee lake-city transit 302 15 15)
+FIRE 2345 no_of_trucks: f-3713,
+FIRE 2346 inner_loop: f-3710,f-1215,f-917,,f-3711
+<== f-3711  (truck 2 west-palm none idle 0 5 5)
+==> f-3714  (truck 2 west-palm key-west transit 305 5 5)
+FIRE 2347 clock_update: f-3710
+<== f-3710  (clock1 300)
+==> f-3715  (clock1 301)
+FIRE 2348 truck_reset: f-3715,f-3705
+<== f-3705  (truck 1 ft-myers tampa transit 301 15 15)
+==> f-3716  (truck 1 tampa none idle 0 15 15)
+FIRE 2349 loop_traverse: f-3715,f-3716,f-1256,f-1447,
+<== f-3716  (truck 1 tampa none idle 0 15 15)
+==> f-3717  (truck 1 tampa ocala transit 303 15 15)
+FIRE 2350 trucko_reset: f-3715,f-3708
+<== f-3708  (trucko 6 st-augustine orlando transit 301 10 10)
+==> f-3718  (trucko 6 orlando none idle 0 10 10)
+FIRE 2351 trucko_reset: f-3715,f-3702
+<== f-3702  (trucko 4 orlando west-palm transit 301 10 10)
+==> f-3719  (trucko 4 west-palm none idle 0 10 10)
+FIRE 2352 outer_loop1: f-3719,f-262,f-3715,f-870,
+<== f-3719  (trucko 4 west-palm none idle 0 10 10)
+==> f-3720  (trucko 4 west-palm st-augustine transit 304 10 10)
+FIRE 2353 outer_loop_end1: f-3718,f-262,f-3715,f-1101,
+<== f-3718  (trucko 6 orlando none idle 0 10 10)
+==> f-3721  (trucko 6 orlando west-palm transit 304 10 10)
+FIRE 2354 clock_update: f-3715
+<== f-3715  (clock1 301)
+==> f-3722  (clock1 302)
+FIRE 2355 halt: f-3722
+<== f-3722  (clock1 302)
+CLIPS> (load Project2file7.CLP)
+Defining defrule: occupied +j+j+j
+Defining defrule: occupied1 +j+j
+Defining defrule: occupied2 +j
+Defining defrule: truck_print +j
+Defining defrule: package_result1 +j+j
+Defining defrule: package_result2 =j+j
+Defining defrule: package_result3 +j+j+j+j
+Defining defrule: package_result_avg =j=j+j
+Defining defrule: jdn +j+j+j
+Defining defrule: om +j+j
+Defining defrule: om1 +j+j+j
+Defining defrule: avg-print +j+j+j+j+j
+TRUE
+CLIPS> (run)
+FIRE    1 occupied: f-3287,f-59,f-65
+<== f-3287  (occu 5 1 9 4 6 5 8 5 5 5 8 7 9)
+<== f-59    (countoccu 5 0)
+<== f-65    (sumoccu 5 0)
+==> f-3723  (occu 5 9 4 6 5 8 5 5 5 8 7 9)
+==> f-3724  (countoccu 5 1)
+==> f-3725  (sumoccu 5 1)
+FIRE    2 occupied: f-3723,f-3724,f-3725
+<== f-3723  (occu 5 9 4 6 5 8 5 5 5 8 7 9)
+<== f-3724  (countoccu 5 1)
+<== f-3725  (sumoccu 5 1)
+==> f-3726  (occu 5 4 6 5 8 5 5 5 8 7 9)
+==> f-3727  (countoccu 5 2)
+==> f-3728  (sumoccu 5 10)
+FIRE    3 occupied: f-3726,f-3727,f-3728
+<== f-3726  (occu 5 4 6 5 8 5 5 5 8 7 9)
+<== f-3727  (countoccu 5 2)
+<== f-3728  (sumoccu 5 10)
+==> f-3729  (occu 5 6 5 8 5 5 5 8 7 9)
+==> f-3730  (countoccu 5 3)
+==> f-3731  (sumoccu 5 14)
+FIRE    4 occupied: f-3729,f-3730,f-3731
+<== f-3729  (occu 5 6 5 8 5 5 5 8 7 9)
+<== f-3730  (countoccu 5 3)
+<== f-3731  (sumoccu 5 14)
+==> f-3732  (occu 5 5 8 5 5 5 8 7 9)
+==> f-3733  (countoccu 5 4)
+==> f-3734  (sumoccu 5 20)
+FIRE    5 occupied: f-3732,f-3733,f-3734
+<== f-3732  (occu 5 5 8 5 5 5 8 7 9)
+<== f-3733  (countoccu 5 4)
+<== f-3734  (sumoccu 5 20)
+==> f-3735  (occu 5 8 5 5 5 8 7 9)
+==> f-3736  (countoccu 5 5)
+==> f-3737  (sumoccu 5 25)
+FIRE    6 occupied: f-3735,f-3736,f-3737
+<== f-3735  (occu 5 8 5 5 5 8 7 9)
+<== f-3736  (countoccu 5 5)
+<== f-3737  (sumoccu 5 25)
+==> f-3738  (occu 5 5 5 5 8 7 9)
+==> f-3739  (countoccu 5 6)
+==> f-3740  (sumoccu 5 33)
+FIRE    7 occupied: f-3738,f-3739,f-3740
+<== f-3738  (occu 5 5 5 5 8 7 9)
+<== f-3739  (countoccu 5 6)
+<== f-3740  (sumoccu 5 33)
+==> f-3741  (occu 5 5 5 8 7 9)
+==> f-3742  (countoccu 5 7)
+==> f-3743  (sumoccu 5 38)
+FIRE    8 occupied: f-3741,f-3742,f-3743
+<== f-3741  (occu 5 5 5 8 7 9)
+<== f-3742  (countoccu 5 7)
+<== f-3743  (sumoccu 5 38)
+==> f-3744  (occu 5 5 8 7 9)
+==> f-3745  (countoccu 5 8)
+==> f-3746  (sumoccu 5 43)
+FIRE    9 occupied: f-3744,f-3745,f-3746
+<== f-3744  (occu 5 5 8 7 9)
+<== f-3745  (countoccu 5 8)
+<== f-3746  (sumoccu 5 43)
+==> f-3747  (occu 5 8 7 9)
+==> f-3748  (countoccu 5 9)
+==> f-3749  (sumoccu 5 48)
+FIRE   10 occupied: f-3747,f-3748,f-3749
+<== f-3747  (occu 5 8 7 9)
+<== f-3748  (countoccu 5 9)
+<== f-3749  (sumoccu 5 48)
+==> f-3750  (occu 5 7 9)
+==> f-3751  (countoccu 5 10)
+==> f-3752  (sumoccu 5 56)
+FIRE   11 occupied: f-3750,f-3751,f-3752
+<== f-3750  (occu 5 7 9)
+<== f-3751  (countoccu 5 10)
+<== f-3752  (sumoccu 5 56)
+==> f-3753  (occu 5 9)
+==> f-3754  (countoccu 5 11)
+==> f-3755  (sumoccu 5 63)
+FIRE   12 occupied: f-3753,f-3754,f-3755
+<== f-3753  (occu 5 9)
+<== f-3754  (countoccu 5 11)
+<== f-3755  (sumoccu 5 63)
+==> f-3756  (occu 5)
+==> f-3757  (countoccu 5 12)
+==> f-3758  (sumoccu 5 72)
+FIRE   13 occupied: f-3176,f-56,f-62
+<== f-3176  (occu 2 2 4 5 4 2 4 3)
+<== f-56    (countoccu 2 0)
+<== f-62    (sumoccu 2 0)
+==> f-3759  (occu 2 4 5 4 2 4 3)
+==> f-3760  (countoccu 2 1)
+==> f-3761  (sumoccu 2 2)
+FIRE   14 occupied: f-3759,f-3760,f-3761
+<== f-3759  (occu 2 4 5 4 2 4 3)
+<== f-3760  (countoccu 2 1)
+<== f-3761  (sumoccu 2 2)
+==> f-3762  (occu 2 5 4 2 4 3)
+==> f-3763  (countoccu 2 2)
+==> f-3764  (sumoccu 2 6)
+FIRE   15 occupied: f-3762,f-3763,f-3764
+<== f-3762  (occu 2 5 4 2 4 3)
+<== f-3763  (countoccu 2 2)
+<== f-3764  (sumoccu 2 6)
+==> f-3765  (occu 2 4 2 4 3)
+==> f-3766  (countoccu 2 3)
+==> f-3767  (sumoccu 2 11)
+FIRE   16 occupied: f-3765,f-3766,f-3767
+<== f-3765  (occu 2 4 2 4 3)
+<== f-3766  (countoccu 2 3)
+<== f-3767  (sumoccu 2 11)
+==> f-3768  (occu 2 2 4 3)
+==> f-3769  (countoccu 2 4)
+==> f-3770  (sumoccu 2 15)
+FIRE   17 occupied: f-3768,f-3769,f-3770
+<== f-3768  (occu 2 2 4 3)
+<== f-3769  (countoccu 2 4)
+<== f-3770  (sumoccu 2 15)
+==> f-3771  (occu 2 4 3)
+==> f-3772  (countoccu 2 5)
+==> f-3773  (sumoccu 2 17)
+FIRE   18 occupied: f-3771,f-3772,f-3773
+<== f-3771  (occu 2 4 3)
+<== f-3772  (countoccu 2 5)
+<== f-3773  (sumoccu 2 17)
+==> f-3774  (occu 2 3)
+==> f-3775  (countoccu 2 6)
+==> f-3776  (sumoccu 2 21)
+FIRE   19 occupied: f-3774,f-3775,f-3776
+<== f-3774  (occu 2 3)
+<== f-3775  (countoccu 2 6)
+<== f-3776  (sumoccu 2 21)
+==> f-3777  (occu 2)
+==> f-3778  (countoccu 2 7)
+==> f-3779  (sumoccu 2 24)
+FIRE   20 occupied: f-2509,f-55,f-61
+<== f-2509  (occu 1 4 7)
+<== f-55    (countoccu 1 0)
+<== f-61    (sumoccu 1 0)
+==> f-3780  (occu 1 7)
+==> f-3781  (countoccu 1 1)
+==> f-3782  (sumoccu 1 4)
+FIRE   21 occupied: f-3780,f-3781,f-3782
+<== f-3780  (occu 1 7)
+<== f-3781  (countoccu 1 1)
+<== f-3782  (sumoccu 1 4)
+==> f-3783  (occu 1)
+==> f-3784  (countoccu 1 2)
+==> f-3785  (sumoccu 1 11)
+FIRE   22 occupied: f-1895,f-60,f-66
+<== f-1895  (occu 6 7 5)
+<== f-60    (countoccu 6 0)
+<== f-66    (sumoccu 6 0)
+==> f-3786  (occu 6 5)
+==> f-3787  (countoccu 6 1)
+==> f-3788  (sumoccu 6 7)
+FIRE   23 occupied: f-3786,f-3787,f-3788
+<== f-3786  (occu 6 5)
+<== f-3787  (countoccu 6 1)
+<== f-3788  (sumoccu 6 7)
+==> f-3789  (occu 6)
+==> f-3790  (countoccu 6 2)
+==> f-3791  (sumoccu 6 12)
+FIRE   24 occupied: f-1874,f-58,f-64
+<== f-1874  (occu 4 4 3 7)
+<== f-58    (countoccu 4 0)
+<== f-64    (sumoccu 4 0)
+==> f-3792  (occu 4 3 7)
+==> f-3793  (countoccu 4 1)
+==> f-3794  (sumoccu 4 4)
+FIRE   25 occupied: f-3792,f-3793,f-3794
+<== f-3792  (occu 4 3 7)
+<== f-3793  (countoccu 4 1)
+<== f-3794  (sumoccu 4 4)
+==> f-3795  (occu 4 7)
+==> f-3796  (countoccu 4 2)
+==> f-3797  (sumoccu 4 7)
+FIRE   26 occupied: f-3795,f-3796,f-3797
+<== f-3795  (occu 4 7)
+<== f-3796  (countoccu 4 2)
+<== f-3797  (sumoccu 4 7)
+==> f-3798  (occu 4)
+==> f-3799  (countoccu 4 3)
+==> f-3800  (sumoccu 4 14)
+FIRE   27 occupied1: f-3799,f-3800
+<== f-3799  (countoccu 4 3)
+<== f-3800  (sumoccu 4 14)
+==> f-3801  (avg 4 3 4.66666666666667)
+FIRE   28 occupied1: f-3790,f-3791
+<== f-3790  (countoccu 6 2)
+<== f-3791  (sumoccu 6 12)
+==> f-3802  (avg 6 2 6.0)
+FIRE   29 occupied1: f-3784,f-3785
+<== f-3784  (countoccu 1 2)
+<== f-3785  (sumoccu 1 11)
+==> f-3803  (avg 1 2 5.5)
+FIRE   30 occupied1: f-3778,f-3779
+<== f-3778  (countoccu 2 7)
+<== f-3779  (sumoccu 2 24)
+==> f-3804  (avg 2 7 3.42857142857143)
+FIRE   31 occupied1: f-3757,f-3758
+<== f-3757  (countoccu 5 12)
+<== f-3758  (sumoccu 5 72)
+==> f-3805  (avg 5 12 6.0)
+FIRE   32 jdn: f-31,f-77,f-67
+<== f-31    (wait-time 1 0)
+<== f-77    (coun_wait 0)
+<== f-67    (sum_coun 0)
+==> f-3806  (coun_wait 1)
+==> f-3807  (sum_coun 0)
+FIRE   33 jdn: f-36,f-3806,f-3807
+<== f-36    (wait-time 6 0)
+<== f-3806  (coun_wait 1)
+<== f-3807  (sum_coun 0)
+==> f-3808  (coun_wait 2)
+==> f-3809  (sum_coun 0)
+FIRE   34 jdn: f-35,f-3808,f-3809
+<== f-35    (wait-time 5 0)
+<== f-3808  (coun_wait 2)
+<== f-3809  (sum_coun 0)
+==> f-3810  (coun_wait 3)
+==> f-3811  (sum_coun 0)
+FIRE   35 jdn: f-34,f-3810,f-3811
+<== f-34    (wait-time 4 0)
+<== f-3810  (coun_wait 3)
+<== f-3811  (sum_coun 0)
+==> f-3812  (coun_wait 4)
+==> f-3813  (sum_coun 0)
+FIRE   36 jdn: f-33,f-3812,f-3813
+<== f-33    (wait-time 3 0)
+<== f-3812  (coun_wait 4)
+<== f-3813  (sum_coun 0)
+==> f-3814  (coun_wait 5)
+==> f-3815  (sum_coun 0)
+FIRE   37 jdn: f-32,f-3814,f-3815
+<== f-32    (wait-time 2 0)
+<== f-3814  (coun_wait 5)
+<== f-3815  (sum_coun 0)
+==> f-3816  (coun_wait 6)
+==> f-3817  (sum_coun 0)
+FIRE   38 package_result2: f-3157,f-3290
+<== f-3157  (package_pickup 30 213)
+<== f-3290  (package_delivered 30 st-augustine jacksonville 9 224 240 231)
+==> f-3818  (time 30 ontime 0)
+==> f-3819  (package_pickup1 30 213)
+==> f-3820  (print 30)
+==> f-3821  (package_delivered1 30 st-augustine jacksonville 9 224 240 231)
+FIRE   39 package_result2: f-2996,f-3040
+<== f-2996  (package_pickup 27 190)
+<== f-3040  (package_delivered 27 lake-city tallahassee 7 190 200 196)
+==> f-3822  (time 27 ontime 0)
+==> f-3823  (package_pickup1 27 190)
+==> f-3824  (print 27)
+==> f-3825  (package_delivered1 27 lake-city tallahassee 7 190 200 196)
+FIRE   40 package_result2: f-2925,f-2942
+<== f-2925  (package_pickup 26 180)
+<== f-2942  (package_delivered 26 tallahassee lake-city 8 180 200 182)
+==> f-3826  (time 26 ontime 0)
+==> f-3827  (package_pickup1 26 180)
+==> f-3828  (print 26)
+==> f-3829  (package_delivered1 26 tallahassee lake-city 8 180 200 182)
+FIRE   41 package_result2: f-2538,f-2671
+<== f-2538  (package_pickup 22 127)
+<== f-2671  (package_delivered 22 west-palm key-west 2 133 150 145)
+==> f-3830  (time 22 ontime 0)
+==> f-3831  (package_pickup1 22 127)
+==> f-3832  (print 22)
+==> f-3833  (package_delivered1 22 west-palm key-west 2 133 150 145)
+FIRE   42 package_result2: f-2227,f-2268
+<== f-2227  (package_pickup 18 84)
+<== f-2268  (package_delivered 18 tallahassee gainesville 8 80 100 89)
+==> f-3834  (time 18 ontime 0)
+==> f-3835  (package_pickup1 18 84)
+==> f-3836  (print 18)
+==> f-3837  (package_delivered1 18 tallahassee gainesville 8 80 100 89)
+FIRE   43 package_result2: f-2140,f-2177
+<== f-2140  (package_pickup 17 71)
+<== f-2177  (package_delivered 17 jacksonville tallahassee 5 65 80 76)
+==> f-3838  (time 17 ontime 0)
+==> f-3839  (package_pickup1 17 71)
+==> f-3840  (print 17)
+==> f-3841  (package_delivered1 17 jacksonville tallahassee 5 65 80 76)
+FIRE   44 package_result2: f-1841,f-1876
+<== f-1841  (package_pickup 15 31)
+<== f-1876  (package_delivered 15 ocala orlando 7 30 40 34)
+==> f-3842  (time 15 ontime 0)
+==> f-3843  (package_pickup1 15 31)
+==> f-3844  (print 15)
+==> f-3845  (package_delivered1 15 ocala orlando 7 30 40 34)
+FIRE   45 package_result2: f-1501,f-1541
+<== f-1501  (package_pickup 2 1)
+<== f-1541  (package_delivered 2 gainesville jacksonville 1 1 15 7)
+==> f-3846  (time 2 ontime 0)
+==> f-3847  (package_pickup1 2 1)
+==> f-3848  (print 2)
+==> f-3849  (package_delivered1 2 gainesville jacksonville 1 1 15 7)
+FIRE   46 package_result1: f-2908,f-2969
+<== f-2908  (package_pickup 23 178)
+<== f-2969  (package_delivered 23 miami key-west 4 150 155 185)
+==> f-3850  (time 23 late 30)
+==> f-3851  (print 23)
+==> f-3852  (package_pickup1 23 178)
+==> f-3853  (package_delivered1 23 miami key-west 4 150 155 185)
+FIRE   47 package_result1: f-2823,f-2903
+<== f-2823  (package_pickup 24 168)
+<== f-2903  (package_delivered 24 st-augustine gainesville 5 176 165 177)
+==> f-3854  (time 24 late 12)
+==> f-3855  (print 24)
+==> f-3856  (package_pickup1 24 168)
+==> f-3857  (package_delivered1 24 st-augustine gainesville 5 176 165 177)
+FIRE   48 package_result1: f-2748,f-2858
+<== f-2748  (package_pickup 25 158)
+<== f-2858  (package_delivered 25 st-augustine tallahassee 5 163 170 172)
+==> f-3858  (time 25 late 2)
+==> f-3859  (print 25)
+==> f-3860  (package_pickup1 25 158)
+==> f-3861  (package_delivered1 25 st-augustine tallahassee 5 163 170 172)
+FIRE   49 package_result1: f-1594,f-1969
+<== f-1594  (package_pickup 8 11)
+<== f-1969  (package_delivered 8 west-palm key-west 4 21 20 45)
+==> f-3862  (time 8 late 25)
+==> f-3863  (print 8)
+==> f-3864  (package_pickup1 8 11)
+==> f-3865  (package_delivered1 8 west-palm key-west 4 21 20 45)
+FIRE   50 package_result1: f-1701,f-1919
+<== f-1701  (package_pickup 11 18)
+<== f-1919  (package_delivered 11 orlando ocala 4 26 20 39)
+==> f-3866  (time 11 late 19)
+==> f-3867  (print 11)
+==> f-3868  (package_pickup1 11 18)
+==> f-3869  (package_delivered1 11 orlando ocala 4 26 20 39)
+FIRE   51 package_result1: f-1632,f-1908
+<== f-1632  (package_pickup 7 15)
+<== f-1908  (package_delivered 7 west-palm miami 5 21 25 38)
+==> f-3870  (time 7 late 13)
+==> f-3871  (print 7)
+==> f-3872  (package_pickup1 7 15)
+==> f-3873  (package_delivered1 7 west-palm miami 5 21 25 38)
+FIRE   52 package_result1: f-1806,f-1897
+<== f-1806  (package_pickup 14 28)
+<== f-1897  (package_delivered 14 miami orlando 5 20 30 37)
+==> f-3874  (time 14 late 7)
+==> f-3875  (print 14)
+==> f-3876  (package_pickup1 14 28)
+==> f-3877  (package_delivered1 14 miami orlando 5 20 30 37)
+FIRE   53 package_result1: f-1690,f-1819
+<== f-1690  (package_pickup 12 17)
+<== f-1819  (package_delivered 12 gainesville orlando 7 11 17 29)
+==> f-3878  (time 12 late 12)
+==> f-3879  (print 12)
+==> f-3880  (package_pickup1 12 17)
+==> f-3881  (package_delivered1 12 gainesville orlando 7 11 17 29)
+FIRE   54 package_result1: f-1523,f-1674
+<== f-1523  (package_pickup 4 5)
+<== f-1674  (package_delivered 4 key-west st-augustine 4 4 10 16)
+==> f-3882  (time 4 late 6)
+==> f-3883  (print 4)
+==> f-3884  (package_pickup1 4 5)
+==> f-3885  (package_delivered1 4 key-west st-augustine 4 4 10 16)
+FIRE   55 package_result1: f-1570,f-1607
+<== f-1570  (package_pickup 5 9)
+<== f-1607  (package_delivered 5 gainesville tallahassee 9 5 10 12)
+==> f-3886  (time 5 late 2)
+==> f-3887  (print 5)
+==> f-3888  (package_pickup1 5 9)
+==> f-3889  (package_delivered1 5 gainesville tallahassee 9 5 10 12)
+FIRE   56 package_result3: f-3889,f-3886,f-3887,f-3888
+<== f-3887  (print 5)
+
+Packageno: 5 wait-time:4 Pick-up-time: 9 Delivery-time: 12 on-time-or-not: late how-late: 2
+FIRE   57 package_result3: f-3885,f-3882,f-3883,f-3884
+<== f-3883  (print 4)
+
+Packageno: 4 wait-time:1 Pick-up-time: 5 Delivery-time: 16 on-time-or-not: late how-late: 6
+FIRE   58 package_result3: f-3881,f-3878,f-3879,f-3880
+<== f-3879  (print 12)
+
+Packageno: 12 wait-time:6 Pick-up-time: 17 Delivery-time: 29 on-time-or-not: late how-late: 12
+FIRE   59 package_result3: f-3877,f-3874,f-3875,f-3876
+<== f-3875  (print 14)
+
+Packageno: 14 wait-time:8 Pick-up-time: 28 Delivery-time: 37 on-time-or-not: late how-late: 7
+FIRE   60 package_result3: f-3873,f-3870,f-3871,f-3872
+<== f-3871  (print 7)
+
+Packageno: 7 wait-time:-6 Pick-up-time: 15 Delivery-time: 38 on-time-or-not: late how-late: 13
+FIRE   61 package_result3: f-3869,f-3866,f-3867,f-3868
+<== f-3867  (print 11)
+
+Packageno: 11 wait-time:-8 Pick-up-time: 18 Delivery-time: 39 on-time-or-not: late how-late: 19
+FIRE   62 package_result3: f-3865,f-3862,f-3863,f-3864
+<== f-3863  (print 8)
+
+Packageno: 8 wait-time:-10 Pick-up-time: 11 Delivery-time: 45 on-time-or-not: late how-late: 25
+FIRE   63 package_result3: f-3861,f-3858,f-3859,f-3860
+<== f-3859  (print 25)
+
+Packageno: 25 wait-time:-5 Pick-up-time: 158 Delivery-time: 172 on-time-or-not: late how-late: 2
+FIRE   64 package_result3: f-3857,f-3854,f-3855,f-3856
+<== f-3855  (print 24)
+
+Packageno: 24 wait-time:-8 Pick-up-time: 168 Delivery-time: 177 on-time-or-not: late how-late: 12
+FIRE   65 package_result3: f-3853,f-3850,f-3851,f-3852
+<== f-3851  (print 23)
+
+Packageno: 23 wait-time:28 Pick-up-time: 178 Delivery-time: 185 on-time-or-not: late how-late: 30
+FIRE   66 package_result3: f-3849,f-3846,f-3848,f-3847
+<== f-3848  (print 2)
+
+Packageno: 2 wait-time:0 Pick-up-time: 1 Delivery-time: 7 on-time-or-not: ontime how-late: 0
+FIRE   67 package_result3: f-3845,f-3842,f-3844,f-3843
+<== f-3844  (print 15)
+
+Packageno: 15 wait-time:1 Pick-up-time: 31 Delivery-time: 34 on-time-or-not: ontime how-late: 0
+FIRE   68 package_result3: f-3841,f-3838,f-3840,f-3839
+<== f-3840  (print 17)
+
+Packageno: 17 wait-time:6 Pick-up-time: 71 Delivery-time: 76 on-time-or-not: ontime how-late: 0
+FIRE   69 package_result3: f-3837,f-3834,f-3836,f-3835
+<== f-3836  (print 18)
+
+Packageno: 18 wait-time:4 Pick-up-time: 84 Delivery-time: 89 on-time-or-not: ontime how-late: 0
+FIRE   70 package_result3: f-3833,f-3830,f-3832,f-3831
+<== f-3832  (print 22)
+
+Packageno: 22 wait-time:-6 Pick-up-time: 127 Delivery-time: 145 on-time-or-not: ontime how-late: 0
+FIRE   71 package_result3: f-3829,f-3826,f-3828,f-3827
+<== f-3828  (print 26)
+
+Packageno: 26 wait-time:0 Pick-up-time: 180 Delivery-time: 182 on-time-or-not: ontime how-late: 0
+FIRE   72 package_result3: f-3825,f-3822,f-3824,f-3823
+<== f-3824  (print 27)
+
+Packageno: 27 wait-time:0 Pick-up-time: 190 Delivery-time: 196 on-time-or-not: ontime how-late: 0
+FIRE   73 package_result3: f-3821,f-3818,f-3820,f-3819
+<== f-3820  (print 30)
+
+Packageno: 30 wait-time:-11 Pick-up-time: 213 Delivery-time: 231 on-time-or-not: ontime how-late: 0
+FIRE   74 om1: f-3886,f-69,f-70
+<== f-3886  (time 5 late 2)
+<== f-69    (coun_l 0)
+<== f-70    (lates 0)
+==> f-3890  (lates 2)
+==> f-3891  (coun_l 1)
+FIRE   75 om1: f-3850,f-3891,f-3890
+<== f-3850  (time 23 late 30)
+<== f-3891  (coun_l 1)
+<== f-3890  (lates 2)
+==> f-3892  (lates 32)
+==> f-3893  (coun_l 2)
+FIRE   76 om1: f-3854,f-3893,f-3892
+<== f-3854  (time 24 late 12)
+<== f-3893  (coun_l 2)
+<== f-3892  (lates 32)
+==> f-3894  (lates 44)
+==> f-3895  (coun_l 3)
+FIRE   77 om1: f-3858,f-3895,f-3894
+<== f-3858  (time 25 late 2)
+<== f-3895  (coun_l 3)
+<== f-3894  (lates 44)
+==> f-3896  (lates 46)
+==> f-3897  (coun_l 4)
+FIRE   78 om1: f-3862,f-3897,f-3896
+<== f-3862  (time 8 late 25)
+<== f-3897  (coun_l 4)
+<== f-3896  (lates 46)
+==> f-3898  (lates 71)
+==> f-3899  (coun_l 5)
+FIRE   79 om1: f-3866,f-3899,f-3898
+<== f-3866  (time 11 late 19)
+<== f-3899  (coun_l 5)
+<== f-3898  (lates 71)
+==> f-3900  (lates 90)
+==> f-3901  (coun_l 6)
+FIRE   80 om1: f-3870,f-3901,f-3900
+<== f-3870  (time 7 late 13)
+<== f-3901  (coun_l 6)
+<== f-3900  (lates 90)
+==> f-3902  (lates 103)
+==> f-3903  (coun_l 7)
+FIRE   81 om1: f-3874,f-3903,f-3902
+<== f-3874  (time 14 late 7)
+<== f-3903  (coun_l 7)
+<== f-3902  (lates 103)
+==> f-3904  (lates 110)
+==> f-3905  (coun_l 8)
+FIRE   82 om1: f-3878,f-3905,f-3904
+<== f-3878  (time 12 late 12)
+<== f-3905  (coun_l 8)
+<== f-3904  (lates 110)
+==> f-3906  (lates 122)
+==> f-3907  (coun_l 9)
+FIRE   83 om1: f-3882,f-3907,f-3906
+<== f-3882  (time 4 late 6)
+<== f-3907  (coun_l 9)
+<== f-3906  (lates 122)
+==> f-3908  (lates 128)
+==> f-3909  (coun_l 10)
+FIRE   84 om: f-3846,f-68
+<== f-3846  (time 2 ontime 0)
+<== f-68    (coun_on 0)
+==> f-3910  (coun_on 1)
+FIRE   85 om: f-3818,f-3910
+<== f-3818  (time 30 ontime 0)
+<== f-3910  (coun_on 1)
+==> f-3911  (coun_on 2)
+FIRE   86 om: f-3822,f-3911
+<== f-3822  (time 27 ontime 0)
+<== f-3911  (coun_on 2)
+==> f-3912  (coun_on 3)
+FIRE   87 om: f-3826,f-3912
+<== f-3826  (time 26 ontime 0)
+<== f-3912  (coun_on 3)
+==> f-3913  (coun_on 4)
+FIRE   88 om: f-3830,f-3913
+<== f-3830  (time 22 ontime 0)
+<== f-3913  (coun_on 4)
+==> f-3914  (coun_on 5)
+FIRE   89 om: f-3834,f-3914
+<== f-3834  (time 18 ontime 0)
+<== f-3914  (coun_on 5)
+==> f-3915  (coun_on 6)
+FIRE   90 om: f-3838,f-3915
+<== f-3838  (time 17 ontime 0)
+<== f-3915  (coun_on 6)
+==> f-3916  (coun_on 7)
+FIRE   91 om: f-3842,f-3916
+<== f-3842  (time 15 ontime 0)
+<== f-3916  (coun_on 7)
+==> f-3917  (coun_on 8)
+FIRE   92 occupied2: f-3805
+<== f-3805  (avg 5 12 6.0)
+==> f-3918  (avgp 5 12 100.0)
+FIRE   93 truck_print: f-3918
+
+TIME_BUSY:100 NO_OF_PACKAGES:12 AVG_PERCENT_OF_TRUCK_OCCUPIED:100 TRUCK_NO:5
+FIRE   94 occupied2: f-3804
+<== f-3804  (avg 2 7 3.42857142857143)
+==> f-3919  (avgp 2 7 57.1428571428571)
+FIRE   95 truck_print: f-3919
+
+TIME_BUSY:100 NO_OF_PACKAGES:7 AVG_PERCENT_OF_TRUCK_OCCUPIED:57 TRUCK_NO:2
+FIRE   96 occupied2: f-3803
+<== f-3803  (avg 1 2 5.5)
+==> f-3920  (avgp 1 2 91.6666666666667)
+FIRE   97 truck_print: f-3920
+
+TIME_BUSY:100 NO_OF_PACKAGES:2 AVG_PERCENT_OF_TRUCK_OCCUPIED:91 TRUCK_NO:1
+FIRE   98 occupied2: f-3802
+<== f-3802  (avg 6 2 6.0)
+==> f-3921  (avgp 6 2 100.0)
+FIRE   99 truck_print: f-3921
+
+TIME_BUSY:100 NO_OF_PACKAGES:2 AVG_PERCENT_OF_TRUCK_OCCUPIED:100 TRUCK_NO:6
+FIRE  100 occupied2: f-3801
+<== f-3801  (avg 4 3 4.66666666666667)
+==> f-3922  (avgp 4 3 77.7777777777778)
+FIRE  101 truck_print: f-3922
+
+TIME_BUSY:100 NO_OF_PACKAGES:3 AVG_PERCENT_OF_TRUCK_OCCUPIED:77 TRUCK_NO:4
+FIRE  102 avg-print: f-3816,f-3817,f-3917,f-3909,f-3908
+
+NUMBER_OF_PACKAGES_ON_TIME:8 NO_OF_PACKAGES_LATE:10 AVG_lATE_FOR_LATE_PACKAGES:12 AVG_LATE_ALL_PACKAGES:7CLIPS> 
